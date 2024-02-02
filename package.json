@@ -1,0 +1,40 @@
+{
+	"name": "@veramo-community/agent-explorer-plugin-verax",
+	"repository": "git@github.com:veramolabs/agent-explorer-plugin-verax.git",
+	"author": "Simonas Karuzas <simonas.karuzas@mesh.xyz>",
+	"contributors": [],
+	"keywords": [],
+	"license": "Apache-2.0",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "node build.mjs",
+		"serve": "node build.mjs --serve",
+		"ngrok": "ngrok http 8080"
+	},
+	"devDependencies": {
+		"@ant-design/icons": "^5.2.5",
+		"@ant-design/pro-components": "^2.6.12",
+		"@types/react": "^18.2.20",
+		"@types/react-dom": "^18.2.7",
+		"@types/react-router-dom": "^5.3.3",
+		"@veramo-community/agent-explorer-plugin": "^1.65.0",
+		"@veramo-community/veramo-react": "^1.6.2",
+		"@veramo/core": "5.5.4-next.22",
+		"@veramo/core-types": "5.5.4-next.22",
+		"@veramo/utils": "5.5.4-next.22",
+		"antd": "^5.8.3",
+		"date-fns": "^2.30.0",
+		"esbuild": "^0.19.2",
+		"esbuild-plugin-external-global": "^1.0.1",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-query": "^3.39.3",
+		"react-router-dom": "^6.15.0",
+		"typescript": "^5.1.6"
+	},
+	"dependencies": {
+		"@verax-attestation-registry/verax-sdk": "^1.1.1",
+		"ethers": "^6.8.0"
+	}
+}
